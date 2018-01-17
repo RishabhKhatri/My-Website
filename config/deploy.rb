@@ -4,7 +4,7 @@ lock "~> 3.10.1"
 set :application, "My-Website"
 set :repo_url, "git@github.com:RishabhKhatri/My-Website.git"
 
-set :deploy_to, '/home/deploy/My-Website'
+set :deploy_to, '/home/rishabh/My-Website'
 append :linked_files, "config/database.yml", "config/secrets.yml"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", "public/system", "public/uploads"
 
